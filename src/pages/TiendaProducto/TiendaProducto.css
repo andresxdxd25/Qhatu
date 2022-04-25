@@ -1,0 +1,15 @@
+body{
+    overflow-y: scroll;
+}
+
+.divProductos{
+    display: flex;
+    flex-direction: row;
+    gap: 9.7rem;
+    flex-wrap: wrap;
+}
+.divProductosChild{
+    flex-grow: 1;
+    width: 150px;
+    height: 400px;
+}
